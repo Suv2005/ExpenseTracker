@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #92e695;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  .header1{
+    background-color: blanchedalmond;
+  }
+  
+  .inputsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(123, 102, 240);
+  }
+  
+  .inputsection label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .inputsection input[type="number"], .inputsection input[type="date"], .inputsection input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .inputsection button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .expenseslist {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .deletebtn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .Dashboard{
+    background-color: #ddd;
+  }
+  .Search{
+    background-color: #dba5a1;
+  }
+  .s{
+    background-color: yellow;
+    color: black;
+  }
